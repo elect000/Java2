@@ -1,3 +1,4 @@
+import java.io.*;
 public class EvenOdd {
     public static void main(String[] args) throws Exception {
 	System.out.println("整数を入力してください");

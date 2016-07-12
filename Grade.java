@@ -1,7 +1,8 @@
+import java.io.*;
 public class Grade {
     public static void main(String[] args) throws Exception {
 	BufferedReader br =
-	    new BufferedReader(new InputStreamReader(Sytem.in));
+	    new BufferedReader(new InputStreamReader(System.in));
 	String str = br.readLine();
 	int res = Integer.parseInt(str);
 	if(res>=50){
